@@ -4,7 +4,7 @@ MODULES=
 CLEANS=
 INSTALLS=
 
-DESTDIR := $(TOPDIR)/output/staging
+DESTDIR := $(TOPDIR)/output/target
 
 -include liblog/Makefile
 -include servicemanager/Makefile
