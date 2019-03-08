@@ -13,7 +13,6 @@ SOURCES_LUTILS := $(wildcard $(MODULE_PATH_LUTILS)/*.cpp)
 OBJS_LUTILS := $(patsubst %.cpp,%.o, $(SOURCES_LUTILS))
 
 MODULE_LUTILS := $(MODULE_PATH_LUTILS)/libutils.so
-INSTALL_LUTILS := install_libutils
 CLEAN_LUTILS := clean_libutils
 
 LIBS_LUTILS := -llog

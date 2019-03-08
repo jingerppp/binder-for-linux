@@ -12,7 +12,6 @@ SOURCES_LLOG := Log.c
 OBJS_LLOG := $(patsubst %.c,$(MODULE_PATH_LLOG)/%.o, $(SOURCES_LLOG))
 
 MODULE_LLOG := $(MODULE_PATH_LLOG)/liblog.so
-INSTALL_LLOG := install_LLOG
 CLEAN_LLOG := clean_LLOG
 
 MODULES += $(MODULE_LLOG)
