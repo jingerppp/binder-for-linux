@@ -1,0 +1,5 @@
+config BR2_PACKAGE_BINDER
+	bool "libbinder"
+	help
+	  This library is used for IPC when /dev/binder
+	  initialized in Kernel is avaiable.
